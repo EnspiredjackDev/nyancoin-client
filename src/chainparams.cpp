@@ -122,7 +122,7 @@ public:
         consensus.SubBlks = 2000;
         consensus.nCoinbaseMaturity = 15;
         consensus.nPowTargetTimespan = 3 * 60 * 60; // pre-digishield: 1 hours
-        consensus.nPowTargetSpacing = 60; // 12 seconds
+        consensus.nPowTargetSpacing = 60; // 60 seconds
         consensus.DiffMode = 1;  //always 1
         consensus.DiffModeV2 = 2; //set to height for the new diffmode
 
